@@ -3,7 +3,7 @@ const router = express.Router();
 
 // get all offers
 router.get('/', function(req, res, next) {
-  res.send('Get an offer')
+  res.send('Get all offers')
 });
 
 //get a single offers
